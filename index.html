@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script type = "text/javascript" src = "https://d3js.org/d3.v5.min.js"></script>
+      <script type = "text/javascript" src = "index.js"></script>
+   </head>
+
+   <body>
+
+   <h1 style="text-align: center">Rajya Sabha Data</h1><hr>
+    </header>
+    <p>Enter page number: <input type="number" name="PageNumber" value="1" id='pageinput'>
+    Search by ministry name: <input type="text" name="MinistryName" value="" id="searchname"> </p>
+
+    
+    <button onclick="showtable()">Show Table</button>
+    <button onclick="showchart()">Show Bar Graph</button>
+    <hr>
+
+    
+
+    <h2 id="tableheader" style="text-align: center"></h2>
+    <div id="table"></div>
+    <h2 id="chartheader" style="text-align: center"></h2>
+    <svg class="bar-chart" style="padding: 40px"></svg>
+
+     
+
+   </body>
+</html>
